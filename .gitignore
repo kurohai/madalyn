@@ -1,0 +1,18 @@
+
+# log files
+*.log
+log/
+
+# python files
+*.py[cod]
+__pycache__/
+
+# archives
+*.tgz
+
+# password stuff
+secret/
+secret*
+
+# bash stuff
+.bash*

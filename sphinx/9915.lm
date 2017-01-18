@@ -1,0 +1,66 @@
+Language model created by QuickLM on Sun Jul 19 02:17:37 EDT 2015
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 10 sentences and 10 words
+
+\data\
+ngram 1=10
+ngram 2=17
+ngram 3=16
+
+\1-grams:
+-0.9912 </s> -0.3010
+-0.9912 <s> -0.2289
+-1.9912 JARVIS -0.2543
+-1.0370 LIGHT -0.2183
+-1.6902 NOW -0.2543
+-1.6902 OFF -0.2443
+-1.5141 ON -0.2443
+-1.1461 ONE -0.2289
+-1.3892 SET -0.2592
+-1.9912 TURN -0.2592
+
+\2-grams:
+-1.3010 <s> JARVIS 0.0000
+-0.6990 <s> LIGHT -0.0872
+-0.6990 <s> SET 0.0000
+-1.3010 <s> TURN 0.0000
+-0.3010 JARVIS </s> -0.3010
+-0.9542 LIGHT </s> -0.3010
+-0.4102 LIGHT ONE 0.0000
+-0.3010 NOW </s> -0.3010
+-0.6021 OFF </s> -0.3010
+-0.6021 OFF NOW 0.0000
+-0.4771 ON </s> -0.3010
+-0.7782 ON NOW 0.0000
+-0.8451 ONE </s> -0.3010
+-0.8451 ONE OFF 0.0000
+-0.6690 ONE ON 0.0000
+-0.3010 SET LIGHT 0.0000
+-0.3010 TURN LIGHT -0.2499
+
+\3-grams:
+-0.3010 <s> JARVIS </s>
+-0.3010 <s> LIGHT ONE
+-0.3010 <s> SET LIGHT
+-0.3010 <s> TURN LIGHT
+-0.8451 LIGHT ONE </s>
+-0.8451 LIGHT ONE OFF
+-0.6690 LIGHT ONE ON
+-0.3010 OFF NOW </s>
+-0.3010 ON NOW </s>
+-0.6021 ONE OFF </s>
+-0.6021 ONE OFF NOW
+-0.4771 ONE ON </s>
+-0.7782 ONE ON NOW
+-0.9031 SET LIGHT </s>
+-0.4260 SET LIGHT ONE
+-0.3010 TURN LIGHT </s>
+
+\end\

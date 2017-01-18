@@ -1,0 +1,129 @@
+Language model created by QuickLM on Tue Feb 16 21:19:29 EST 2016
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 27 sentences and 28 words
+
+\data\
+ngram 1=28
+ngram 2=52
+ngram 3=26
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-2.2095 AMBER -0.2218
+-2.2095 ARE -0.2218
+-2.2095 BEFORE -0.2218
+-2.2095 BLACK -0.2218
+-2.2095 CODE -0.2218
+-2.2095 COLOR -0.2218
+-2.2095 FEBUARY -0.2218
+-2.2095 GOLD -0.2218
+-2.2095 HAZEL -0.2218
+-2.2095 IF -0.2218
+-2.2095 IN -0.2218
+-2.2095 IS -0.2218
+-2.2095 MUST -0.2218
+-2.2095 NINETH -0.2218
+-2.2095 PEACH -0.2218
+-2.2095 PM -0.2218
+-2.2095 PURPLE -0.2218
+-2.2095 REPORT -0.2218
+-2.2095 SEVEN -0.2218
+-2.2095 STEEL -0.2218
+-2.2095 THANK -0.2218
+-2.2095 THE -0.2218
+-2.2095 TODAY -0.2218
+-2.2095 YELLOW -0.2218
+-1.9085 YOU -0.2218
+-2.2095 YOUR -0.2218
+
+\2-grams:
+-1.7324 <s> AMBER 0.0000
+-1.7324 <s> ARE 0.0000
+-1.7324 <s> BEFORE 0.0000
+-1.7324 <s> BLACK 0.0000
+-1.7324 <s> CODE 0.0000
+-1.7324 <s> COLOR 0.0000
+-1.7324 <s> FEBUARY 0.0000
+-1.7324 <s> GOLD 0.0000
+-1.7324 <s> HAZEL 0.0000
+-1.7324 <s> IF 0.0000
+-1.7324 <s> IN 0.0000
+-1.7324 <s> IS 0.0000
+-1.7324 <s> MUST 0.0000
+-1.7324 <s> NINETH 0.0000
+-1.7324 <s> PEACH 0.0000
+-1.7324 <s> PM 0.0000
+-1.7324 <s> PURPLE 0.0000
+-1.7324 <s> REPORT 0.0000
+-1.7324 <s> SEVEN 0.0000
+-1.7324 <s> STEEL 0.0000
+-1.7324 <s> THANK 0.0000
+-1.7324 <s> THE 0.0000
+-1.7324 <s> TODAY 0.0000
+-1.7324 <s> YELLOW 0.0000
+-1.4314 <s> YOU 0.0000
+-1.7324 <s> YOUR 0.0000
+-0.3010 AMBER </s> -0.3010
+-0.3010 ARE </s> -0.3010
+-0.3010 BEFORE </s> -0.3010
+-0.3010 BLACK </s> -0.3010
+-0.3010 CODE </s> -0.3010
+-0.3010 COLOR </s> -0.3010
+-0.3010 FEBUARY </s> -0.3010
+-0.3010 GOLD </s> -0.3010
+-0.3010 HAZEL </s> -0.3010
+-0.3010 IF </s> -0.3010
+-0.3010 IN </s> -0.3010
+-0.3010 IS </s> -0.3010
+-0.3010 MUST </s> -0.3010
+-0.3010 NINETH </s> -0.3010
+-0.3010 PEACH </s> -0.3010
+-0.3010 PM </s> -0.3010
+-0.3010 PURPLE </s> -0.3010
+-0.3010 REPORT </s> -0.3010
+-0.3010 SEVEN </s> -0.3010
+-0.3010 STEEL </s> -0.3010
+-0.3010 THANK </s> -0.3010
+-0.3010 THE </s> -0.3010
+-0.3010 TODAY </s> -0.3010
+-0.3010 YELLOW </s> -0.3010
+-0.3010 YOU </s> -0.3010
+-0.3010 YOUR </s> -0.3010
+
+\3-grams:
+-0.3010 <s> AMBER </s>
+-0.3010 <s> ARE </s>
+-0.3010 <s> BEFORE </s>
+-0.3010 <s> BLACK </s>
+-0.3010 <s> CODE </s>
+-0.3010 <s> COLOR </s>
+-0.3010 <s> FEBUARY </s>
+-0.3010 <s> GOLD </s>
+-0.3010 <s> HAZEL </s>
+-0.3010 <s> IF </s>
+-0.3010 <s> IN </s>
+-0.3010 <s> IS </s>
+-0.3010 <s> MUST </s>
+-0.3010 <s> NINETH </s>
+-0.3010 <s> PEACH </s>
+-0.3010 <s> PM </s>
+-0.3010 <s> PURPLE </s>
+-0.3010 <s> REPORT </s>
+-0.3010 <s> SEVEN </s>
+-0.3010 <s> STEEL </s>
+-0.3010 <s> THANK </s>
+-0.3010 <s> THE </s>
+-0.3010 <s> TODAY </s>
+-0.3010 <s> YELLOW </s>
+-0.3010 <s> YOU </s>
+-0.3010 <s> YOUR </s>
+
+\end\

@@ -1,0 +1,56 @@
+Language model created by QuickLM on Sun Jul 19 01:36:37 EDT 2015
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 8 sentences and 8 words
+
+\data\
+ngram 1=8
+ngram 2=13
+ngram 3=12
+
+\1-grams:
+-0.9890 </s> -0.3010
+-0.9890 <s> -0.2218
+-1.5911 JARVIS -0.2540
+-1.0470 LIGHT -0.2151
+-1.8921 OFF -0.2540
+-1.4150 ON -0.2414
+-1.1139 ONE -0.2285
+-1.2900 SET -0.2602
+
+\2-grams:
+-1.2041 <s> JARVIS 0.0000
+-0.7270 <s> LIGHT -0.0580
+-0.6021 <s> SET 0.0000
+-0.3010 JARVIS </s> -0.3010
+-1.1461 LIGHT </s> -0.3010
+-0.3680 LIGHT ONE 0.0000
+-0.3010 OFF </s> -0.3010
+-0.4771 ON </s> -0.3010
+-0.7782 ON JARVIS 0.0000
+-0.7782 ONE </s> -0.3010
+-1.0792 ONE OFF 0.0000
+-0.6021 ONE ON 0.0000
+-0.3010 SET LIGHT 0.0000
+
+\3-grams:
+-0.3010 <s> JARVIS </s>
+-0.3010 <s> LIGHT ONE
+-0.3010 <s> SET LIGHT
+-0.7782 LIGHT ONE </s>
+-1.0792 LIGHT ONE OFF
+-0.6021 LIGHT ONE ON
+-0.3010 ON JARVIS </s>
+-0.3010 ONE OFF </s>
+-0.4771 ONE ON </s>
+-0.7782 ONE ON JARVIS
+-0.9031 SET LIGHT </s>
+-0.4260 SET LIGHT ONE
+
+\end\
